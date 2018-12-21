@@ -2,12 +2,6 @@ require 'rubygems'
 require 'bundler/setup'
 require 'ble'
 
-if BLE.defined?
-  puts 'gems success'
-else
-  raise StandardError 'bundle and require gems'
-end
-
 $a = BLE::Adapter.new('hci0')
 puts "Info: #{$a.iface} #{$a.address} #{$a.name}"
 
