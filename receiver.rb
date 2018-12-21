@@ -1,6 +1,4 @@
-require 'rubygems'
-require 'bundler/setup'
-require 'nokogiri'
+require 'ble'
 
 if BLE.defined?
   puts 'gems success'
