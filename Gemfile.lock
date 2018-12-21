@@ -1,0 +1,22 @@
+GIT
+  remote: https://gitlab.com/sdalu/ruby-ble.git
+  revision: b47ea63e0f1f3da8368f0727dfb450362ab3c42f
+  specs:
+    ble (1.0.0)
+      concurrent-ruby
+      ruby-dbus
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.4)
+    ruby-dbus (0.15.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ble!
+
+BUNDLED WITH
+   1.17.1
